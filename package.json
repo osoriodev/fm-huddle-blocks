@@ -3,18 +3,29 @@
   "version": "1.0.0",
   "description": "Huddle landing page with alternating feature blocks",
   "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-source-maps",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/osoriodev/fm-huddle-blocks.git"
   },
-  "keywords": ["html", "sass", "frontend-mentor"],
+  "keywords": [
+    "html",
+    "sass",
+    "frontend-mentor"
+  ],
   "author": "David Osorio <osoriodev@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/osoriodev/fm-huddle-blocks/issues"
   },
-  "homepage": "https://github.com/osoriodev/fm-huddle-blocks#readme"
+  "homepage": "https://github.com/osoriodev/fm-huddle-blocks#readme",
+  "devDependencies": {
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9"
+  }
 }

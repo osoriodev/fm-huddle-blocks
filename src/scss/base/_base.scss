@@ -1,0 +1,39 @@
+// Base styles for buttons
+button {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+// Base styles for links
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Base styles for the icons
+i {
+  // Use `!important` to prevent issues with browser extensions that change fonts
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+.icon {
+  &-facebook::before {
+    content: '\ea90';
+  }
+
+  &-instagram::before {
+    content: '\ea92';
+  }
+
+  &-twitter::before {
+    content: '\ea96';
+  }
+}

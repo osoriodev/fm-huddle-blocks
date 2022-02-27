@@ -1,0 +1,40 @@
+// Open Sans family
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/open-sans-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/open-sans-700.woff2') format('woff2');
+}
+
+// Poppins family
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/poppins-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/poppins-600.woff2') format('woff2');
+}
+
+// Icomoon family
+@font-face {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src:
+    url('/assets/icons/icomoon.woff') format('woff'),
+    url('/assets/icons/icomoon.ttf') format('ttf');
+}
