@@ -2,7 +2,10 @@
   "name": "fm-huddle-blocks",
   "version": "1.0.0",
   "description": "Huddle landing page with alternating feature blocks",
-  "main": "index.js",
+  "main": "unrelated.js",
+  "targets": {
+    "main": false
+  },
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -25,7 +28,7 @@
   },
   "homepage": "https://github.com/osoriodev/fm-huddle-blocks#readme",
   "devDependencies": {
-    "parcel": "^2.3.2",
-    "sass": "^1.49.9"
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2"
   }
 }
